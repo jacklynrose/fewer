@@ -1,0 +1,17 @@
+<div id="container">
+  <div id="controls">
+  </div>
+  <div id="content">
+    Loading...
+  </div>
+</div>
+
+<script id="todo-template" type="text/x-handlebars-template">
+<input type="checkbox"{{#completed}} checked{{/completed}} class="complete">
+<span>{{text}}</span>
+<span class="delete">&times;</span>
+</script>
+
+<script id="controls-template" type="text/x-handlebars-template">
+<input type="text" placeholder="Enter a todo and press enter">
+</script>
