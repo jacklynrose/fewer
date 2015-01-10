@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+@import url(http://fonts.googleapis.com/css?family=Megrim);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+/* line 4, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 6, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+body, * {
+  font-family: Raleway, sans-serif;
+}
+
+/* line 10, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+header {
+  max-width: 60em;
+  margin: 1.25em auto;
+  padding: 3.125em;
+}
+/* line 15, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+header h1 {
+  font-size: 5em;
+  text-align: center;
+  font-family: Megrim, sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 23, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+#container {
+  max-width: 60em;
+  margin: 1.25em auto;
+  box-shadow: 0px 0px 5px #aaa;
+  padding: 3.125em;
+}
+/* line 29, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+#container #controls {
+  margin-bottom: 3.12em;
+}
+/* line 32, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+#container #controls input[type="text"] {
+  width: 100%;
+  font-size: 2em;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+}
+/* line 38, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+#container #controls input[type="text"]:focus {
+  border: 1px solid #aaa;
+  outline: 0;
+  box-shadow: inset 0 0 5px #aaa;
+}
+/* line 46, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+#container .todo {
+  padding: 1.25em;
+  margin-bottom: 0.625em;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  position: relative;
+}
+/* line 53, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+#container .todo:last-child {
+  margin-bottom: 0;
+}
+/* line 57, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+#container .todo .complete {
+  height: 1.3em;
+}
+/* line 61, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+#container .todo .delete {
+  color: #ffcccc;
+  font-size: 24px;
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0.2em;
+  right: 0.2em;
+  width: 1.83em;
+  height: 1.83em;
+  line-height: 1.83em;
+  text-align: center;
+}
+/* line 74, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+#container .todo .delete:hover {
+  color: #ff6666;
+}
+/* line 80, /Users/fluffyjack/Developer/backbone_todos/app/assets/stylesheets/styles.css.scss */
+#container .todo:hover .delete {
+  display: block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
